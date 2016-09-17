@@ -11,14 +11,21 @@ public class addIngredients extends AppCompatActivity {
         Button goDoneAdding= (Button) findViewById(R.id.button_doneAddingIngredient);
         // this button adds the ingredient and goes back to list view of ingredients
         // button ID for "done" button is "doneAddingIngredient"
+
+        final EditText toAdd = (EditText)findViewById(R.id.addIngredientPrompt);
+        // the ID of the text field is "addIngredientPrompt"
+        String toAdd = toAdd.getText().toString();
+        // take the input from the text field and add it into 
+        // a string "toAdd"; this will be the name attribute for
+        // the newly created ingredient 
+
         goDoneAdding.setOnClickListener(new View.OnClickListener(){
 
             @Override
             /* Function: performs everything that happens when "done" button clicked */ 
             public void onClick(View view){
-            	// TODO: get name from text field
 
-            	Ingredient newIngredient = new Ingredient(name);
+            	Ingredient newIngredient = new Ingredient(toAdd);
             	ingredients.add(Ingredient newIngredient);
             	// create a new ingredient and add it to 
             	// ArrayList<Ingredients> ingredients
@@ -38,7 +45,7 @@ public class addIngredients extends AppCompatActivity {
             /* Function: performs everything that happens when "add more" button clicked */ 
             public void onClick(View view){
 
-                Ingredient newIngredient = new Ingredient(name);
+                Ingredient newIngredient = new Ingredient(toAdd);
             	ingredients.add(Ingredient newIngredient);
             	// create a new ingredient and add it to 
             	// ArrayList<Ingredients> ingredients

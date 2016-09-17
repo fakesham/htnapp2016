@@ -41,24 +41,10 @@ public class MainActivity extends AppCompatActivity {
         ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
         // initialize ingredient arraylist
         
-        /* Function: add ingredient to array
-         Input: string for name
-         Return val: ingredient that was just created */
-        public Ingredient addIngredient(String name){
-            Ingredient newIngredient = new Ingredient(name);
-            ingredients.add(Ingredient newIngredient);
-            return newIngredient;
-        }
-        
-        /* Function: remove ingredient from array
-         Input: data from checkboxes (ingredient type)
-         Return val: none */
-        public void removeIngredient(Ingredient toRemove){
-            ingredients.remove(toRemove);
-        }
+       
         
         ListView ingredientListView = (Listview) findViewById(R.id.ingredientListView);
-        // initialize ingredient list view
+        // initialize ingredient list view (for displaying in list)
         
         ArrayAdapter<Ingredient> adapter = new ArrayAdapter<Ingredient>(this,
                                                                         android.R.layout.simple_list_item_1, ingredients);
