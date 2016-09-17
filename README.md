@@ -6,4 +6,4 @@ Recipe app that matches a list of ingredients to a recipe!
 
 - JiaYin: MainActivity
 
-- Sophia and Catherine: Recipe.java
+- Sophia and Catherine: Recipe.java, findRecipes.java, activity_find_recipes.xml
