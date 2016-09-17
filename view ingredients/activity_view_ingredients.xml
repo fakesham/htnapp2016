@@ -8,9 +8,12 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.mammam.what2make.MainActivity"
     android:weightSum="1">
+<!--add the following back in: 
+    tools:context="com.example.mammam.what2make.MainActivity" --> 
 
+
+<!-- list view of all items --> 
     <ListView
         android:id="@+id/ingredientsListView"
         android:layout_width="match_parent"
@@ -20,6 +23,8 @@
         android:layout_above="@+id/addbutton">
     </ListView>
 
+<!-- button to add an ingredient --> 
+<!-- takes user to addIngredients activity --> 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -31,6 +36,8 @@
         android:layout_toLeftOf="@+id/removebutton"
         android:layout_toStartOf="@+id/removebutton" />
 
+<!-- button to remove ingredients --> 
+<!-- takes user to removeIngredients activity --> 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
