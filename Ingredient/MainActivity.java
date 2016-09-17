@@ -29,21 +29,35 @@ int ingredientIndex = 0;
 	Return val: ingredient that was just created */   
 public Ingredient addIngredient(String name){
 
-	if(ingredientIndex>=ingredients.length){
+	try{
+		// check if ingredients list is already full 
+		// TODO: how tf do I add a popup error??????
+		// OK I will try to use Toast 
 
+		Ingredient newIngredient = new Ingredient(name);
+		ingredient[ingredientIndex] = newIngredient; 
+		ingredientIndex++; 
+	}
+	catch(ArrayOutOfBoundsException e){
+		Helper.tooMuchFoodException(this, 
+			"You have too many ingredients! 
+			Try deleting some.");
 	}
 
-    Ingredient newIngredient = new Ingredient(name);
-    ingredient[ingredientIndex] = newIngredient; 
-    ingredientIndex++; 
-
     return newIngredient; 
+}
+
+/* Function: display toast message about 
+having too many ingredients */ 
+public static void tooMuchFoodException(Context context, String msg){
+	Toast.makeText(context, msg, Toast.LENGTH_LONG).show(); 
 }
 
 ListView ingredientListView = (Listview) findViewById(R.id.ingredientListView); 
 // initialize ingredient list view 
 
-ArrayAdapter<Ingredient> adapter = new ArrayAdapter<Ingredient>(this, android.R.layout.simple_list_item_1, ingredients);
+ArrayAdapter<Ingredient> adapter = new ArrayAdapter<Ingredient>(this, 
+	android.R.layout.simple_list_item_1, ingredients);
 // initialize adapter 
 
 ingredientListView.setAdapter(adapter); 
