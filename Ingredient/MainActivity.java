@@ -17,40 +17,23 @@
     }
 }*/
 
-Ingredient[] ingredients = new Ingredient[50];
-// initialize ingredient array 
-
-int ingredientIndex = 0; 
-// keep track of where we are in the array 
-
+ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>(); 
+// initialize ingredient arraylist 
  
 /* Function: add ingredient to array 
 	Input: string for name 
 	Return val: ingredient that was just created */   
 public Ingredient addIngredient(String name){
-
-	try{
-		// check if ingredients list is already full 
-		// TODO: how tf do I add a popup error??????
-		// OK I will try to use Toast 
-
-		Ingredient newIngredient = new Ingredient(name);
-		ingredient[ingredientIndex] = newIngredient; 
-		ingredientIndex++; 
-	}
-	catch(ArrayOutOfBoundsException e){
-		Helper.tooMuchFoodException(this, 
-			"You have too many ingredients! 
-			Try deleting some.");
-	}
-
+	Ingredient newIngredient = new Ingredient(name);
+	ingredients.add(Ingredient newIngredient);
     return newIngredient; 
 }
 
-/* Function: display toast message about 
-having too many ingredients */ 
-public static void tooMuchFoodException(Context context, String msg){
-	Toast.makeText(context, msg, Toast.LENGTH_LONG).show(); 
+/* Function: remove ingredient from array 
+	Input: data from checkboxes (ingredient type)
+	Return val: none */ 
+public void removeIngredient(Ingredient toRemove){
+	ingredients.remove(toRemove); 
 }
 
 ListView ingredientListView = (Listview) findViewById(R.id.ingredientListView); 
