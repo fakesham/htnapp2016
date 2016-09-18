@@ -13,6 +13,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        /* SHAM'S RESPONSIBILITY */
+        ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+        // initialize ingredient arraylist
+        /* END SHAM'S RESPONSIBILITY */
+
         Button goViewIngredients= (Button) findViewById(R.id.button_viewIngredients);
         goViewIngredients.setOnClickListener(new View.OnClickListener(){
 
@@ -37,22 +42,7 @@ public class MainActivity extends AppCompatActivity {
 
         });
         
-        /* SHAM'S RESPONSIBILITY */
-        ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
-        // initialize ingredient arraylist
-        
-       
-        
-        ListView ingredientListView = (Listview) findViewById(R.id.ingredientListView);
-        // initialize ingredient list view (for displaying in list)
-        
-        ArrayAdapter<Ingredient> adapter = new ArrayAdapter<Ingredient>(this,
-                                                                        android.R.layout.simple_list_item_1, ingredients);
-        // initialize adapter 
-        
-        ingredientListView.setAdapter(adapter); 
-        // this will convert ingredients array to list view
-        /* END SHAM'S RESPONSIBILITY */
+
 
     }
 }

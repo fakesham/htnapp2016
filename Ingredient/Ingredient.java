@@ -10,4 +10,8 @@ public class Ingredient {
         Ingredient newIngredient = new Ingredient(name);
 
     }
+
+    public String toString(){
+    	return this.toString; 
+    }
 }
