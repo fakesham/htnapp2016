@@ -16,7 +16,7 @@ public class viewIngredients extends AppCompatActivity {
 
         // make button to go to addIngredient screen
         Button goAddIngredients = (Button) findViewById(R.id.addbutton);
-        goAddIngredients.setOnClickListener(new View.OnClickListener(){
+        goAddIngredients.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View view) {
@@ -25,6 +25,17 @@ public class viewIngredients extends AppCompatActivity {
             }
         });
 
+        // make button to go back to welcome screen
+        Button goBack = (Button) findViewById(R.id.backbutton);
+        goBack.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(viewIngredients.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
     }
+
 
 }

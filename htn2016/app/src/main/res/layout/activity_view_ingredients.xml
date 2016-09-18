@@ -44,11 +44,22 @@
         android:text="Remove"
         android:id="@+id/removebutton"
         android:clickable="true"
-        android:layout_marginRight="72dp"
-        android:layout_marginEnd="72dp"
         android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/ingredientsListView"
         android:layout_alignEnd="@+id/ingredientsListView" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/backbutton"
+        android:backgroundTint="#ffffff"
+        android:shadowColor="#ffffff"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>

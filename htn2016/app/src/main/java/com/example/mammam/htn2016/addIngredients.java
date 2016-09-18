@@ -41,11 +41,11 @@ public class addIngredients extends AppCompatActivity {
                 // create a new ingredient and add it to
                 // ArrayList<Ingredients> ingredients
                 // ISSUE: we can't share the arraylist across activities
-                Toast.makeText(getApplicationContext(), "u added a new ing", Toast.LENGTH_SHORT).show();
+                // Toast.makeText(getApplicationContext(), "u added a new ing", Toast.LENGTH_SHORT).show();
 
-                //Intent intent= new Intent(addIngredients.this, viewIngredients.class);
+                Intent intent= new Intent(addIngredients.this, viewIngredients.class);
                 // it goes from addIngredients to viewIngredients
-                //startActivity(intent);
+                startActivity(intent);
             }
         });
 

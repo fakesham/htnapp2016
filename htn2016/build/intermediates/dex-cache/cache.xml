@@ -1,2 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_ed5b46efda7cc2874860eadc42f9bedaf2833dc5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_29fdedc58979c8617f225107a6c5f88551228006/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6f9d164ca9f1b0bafc918928e4b4af675a541b07/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_5028966f65cb28120e9628f9825657c91d5e9300/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="72f39923594ac4512e38df21be4b3984cd0e8e2f">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_be61ab9f25f1853c9ac470cbd9ff0f71ba89392c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_a27bb2e73a7702423afeb5b10c88e7048fb8393b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_fc39334951c90e0a5111565aff086decd02ee32c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_d4ae2158252dcf8d010069b4d18d85563cbb31d1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_60950769b9b79aa95928a98846f3bdb2ba3d7a0b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_4ced15463ca272e7054745bdb338d1a4e36ddd46/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b48fd002fc6d3aa4a38483a3b69ef800756ae602/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_a69b340a1773010317699a4c468789e9b40e3eed/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_b3487fd02986286190efd31705c1c8341517a9aa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="d7ddf77ae17150f167496f0d0ea3cd06e913251f">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_c27c90e23c51aa746716a3d3dd8f3d66f3f00159/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_72ed10203fa348819ee7488b2991180ebb7e00eb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_bf3acaba2f5423272575533fc8f192ccc3bf6315/classes.dex" />
+    </item>
+    <item
+        jar="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/mammam/Documents/htnapp2016/htn2016/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_552a9b0034f957f5e64f8737ce925a2cdf7edaa3/classes.dex" />
+    </item>
+
+</items>
