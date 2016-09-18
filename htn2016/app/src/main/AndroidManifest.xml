@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".add_ingredients" />
         <activity android:name=".addIngredients" />
-        <activity android:name=".viewIngredients"></activity>
+        <activity android:name=".viewIngredients" />
+        <activity android:name=".findRecipes"></activity>
     </application>
 
 </manifest>
