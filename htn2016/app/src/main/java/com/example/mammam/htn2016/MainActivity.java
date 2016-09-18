@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         /* SHAM'S RESPONSIBILITY */
-        ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
+        // ArrayList<Ingredient> ingredients = new ArrayList<Ingredient>();
         // initialize ingredient arraylist
         /* END SHAM'S RESPONSIBILITY */
 

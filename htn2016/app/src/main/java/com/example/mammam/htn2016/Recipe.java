@@ -1,7 +1,7 @@
 package com.example.mammam.htn2016;
 import android.database.Cursor;
 
-import com.<recipe_app>.client.database.RecipeTable;
+//import com.<recipe_app>.client.database.RecipeTable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,9 +46,9 @@ public class Recipe {
         Recipe recipe = new Recipe(null);
         for (int c = 0; c < cursor.getColumnCount(); c++) {
             String columnName = cursor.getColumnName(c);
-            if (columnName.equals(RecipeTable.ID_COLUMN)) {
+            /*if (columnName.equals(RecipeTable.ID_COLUMN)) {
                 recipe.name = cursor.getString(c);
-            }
+            }*/
         }
         return recipe;
     }
