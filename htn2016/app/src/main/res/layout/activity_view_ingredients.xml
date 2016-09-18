@@ -12,7 +12,6 @@
     <!--add the following back in:
         tools:context="com.example.mammam.what2make.MainActivity" -->
 
-
     <!-- list view of all items -->
     <ListView
         android:id="@+id/ingredientsListView"
