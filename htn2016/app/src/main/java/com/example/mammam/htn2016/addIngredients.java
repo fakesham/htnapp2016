@@ -35,6 +35,7 @@ public class addIngredients extends AppCompatActivity {
                 ingredients.add(newIngredient);
                 // create a new ingredient and add it to
                 // ArrayList<Ingredients> ingredients
+                // ISSUE: we can't share the arraylist across activities
 
                 Intent intent= new Intent(addIngredients.this, viewIngredients.class);
                 // it goes from addIngredients to viewIngredients
